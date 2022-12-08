@@ -14,3 +14,17 @@ Content-Type: application/json
   "artist": "Twen",
   "year": "2022"
 }
+
+### SONGS UPDATE
+PATCH http://localhost:3000/songs/2.json
+Content-Type: application/json
+
+{
+  "title": "I Just Wanna",
+  "album": "I Just Wanna",
+  "artist": "Kali",
+  "year": "2021"
+}
+
+### SONGS DESTROY
+DELETE http://localhost:3000/songs/2.json
