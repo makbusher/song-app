@@ -1,0 +1,16 @@
+### SONGS INDEX
+GET http://localhost:3000/songs.json
+
+### SONGS SHOW
+GET http://localhost:3000/songs/1.json
+
+### SONGS CREATE
+POST http://localhost:3000/songs.json
+Content-Type: application/json
+
+{
+  "title": "HaHaHome",
+  "album": "One Stop Shop",
+  "artist": "Twen",
+  "year": "2022"
+}
